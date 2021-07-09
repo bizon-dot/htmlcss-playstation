@@ -1,0 +1,57 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Generali */
+
+/* Classi colore - Sfondi  */
+
+.ms_bg-black{
+    background-color: #000000;
+}
+
+.ms_bg-light-black {
+    background-color: #1F1F1F;
+}
+
+.ms_bg-dark-gray {
+    background-color: #363636;
+}
+
+/*/ Classi colore - Sfondi  */
+
+/* Pulsanti */
+
+/* Reset  */
+button {
+    border: none;
+    text-decoration: none;
+    font-family: inherit;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+
+
+/* Posizionemento colore */
+
+.my_float-right{
+    float: right;
+}
+/* header top */
+
+#header-top .ms_img-container{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#header-top .ms_img-container > img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* /header top */
