@@ -25,33 +25,33 @@ box-sizing: border-box;
 /* Pulsanti */
 
 /* Reset  */
-button {
-    border: none;
-    text-decoration: none;
-    font-family: inherit;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+.btn {
+    border-radius: 20%;
+    padding:10px;
     
 }
 
 
-/* Posizionemento colore */
 
-.my_float-right{
-    float: right;
-}
 /* header top */
 
 #header-top .ms_img-container{
     width: 80px;
-    height: 30px;
-    line-height: 30px;
+    height: 50px;
+    /* line-height: 50px;
+    vertical-align: middle; */
+
 }
 
 #header-top .ms_img-container > img{
-    vertical-align: middle;
     margin-right: 10px;
 }
+
+#header-top,
+#header-bottom {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
 
 /* /header top */
