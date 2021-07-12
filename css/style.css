@@ -22,11 +22,17 @@
 
 /*/ Classi colore - Sfondi  */
 
+/* Margini tra le sezioni */
+
+#hero{
+    margin-top:60px;
+}
+
 /* Pulsanti */
 
 /* Reset  */
 .btn {
-    border-radius: 20%;
+    border-radius: 15%;
     padding: 10px;
     color:white;
 }
@@ -38,9 +44,7 @@
 #header-top .ms_img-container {
     width: 80px;
     height: 50px;
-    /* line-height: 50px;
-    vertical-align: middle; */
-
+    
 }
 
 #header-top .ms_img-container>img {
@@ -82,7 +86,51 @@
 /* fake-slider */
 #fake-slider img{
     width: 200px;
-    /* margin-right: 15px; */
+    border-radius: 20%;
     margin-top:15px;
 }
+
+
 /* /fake-slider */
+
+/* HeroImage */
+
+/* span sopra al titolo */
+#hero .container-fluid{
+    margin: 0 auto;
+}
+#hero span:first-child{
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color:#0072ce;
+   
+}
+
+/* Hero h3 */
+#hero h3{
+    font-size:40px;
+    word-spacing: 10px;
+    margin-top:10px;
+  
+}
+
+#hero p:first-of-type,
+#hero p:last-of-type{
+    font-size:20px;
+    color:grey;
+    margin-top:20px;
+}
+
+
+
+#hero img {
+    height: 50%;
+}
+
+#hero .hero-content{
+    margin-top: 40px;
+}
+
+/* /HeroImage */
+
