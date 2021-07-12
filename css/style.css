@@ -1,14 +1,14 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Generali */
 
 /* Classi colore - Sfondi  */
 
-.ms_bg-black{
+.ms_bg-black {
     background-color: #000000;
 }
 
@@ -27,15 +27,15 @@ box-sizing: border-box;
 /* Reset  */
 .btn {
     border-radius: 20%;
-    padding:10px;
-    
+    padding: 10px;
+    color:white;
 }
 
 
 
 /* header top */
 
-#header-top .ms_img-container{
+#header-top .ms_img-container {
     width: 80px;
     height: 50px;
     /* line-height: 50px;
@@ -43,7 +43,7 @@ box-sizing: border-box;
 
 }
 
-#header-top .ms_img-container > img{
+#header-top .ms_img-container>img {
     margin-right: 10px;
 }
 
@@ -53,8 +53,8 @@ box-sizing: border-box;
     vertical-align: middle;
 }
 
-#header-bottom svg{
-    margin-left:5px;
+#header-bottom svg {
+    margin-left: 5px;
 }
 
 
@@ -62,12 +62,19 @@ box-sizing: border-box;
 
 /* Jumbotron */
 
-#jumbotron .jumbo-bg{
-    width:100%;
-    height:800px;
-    background:url('../img/jumbo-bg.png') ;
-    background-size: cover;
+/* Desktop */
+
+
+#jumbotron{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
 }
 
-
-/* /Jumbotron */
+#jumbotron img
+{
+    width: 50%;
+}
