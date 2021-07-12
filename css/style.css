@@ -62,19 +62,27 @@
 
 /* Jumbotron */
 
-/* Desktop */
-
-
 #jumbotron{
     width: 100%;
     height: 70vh;
     background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: top;
     background-position-x: center;
 }
 
-#jumbotron img
+#jumbotron .col > img
 {
     width: 50%;
 }
+
+/* /Jumbotron */
+
+/* fake-slider */
+#fake-slider img{
+    width: 200px;
+    /* margin-right: 15px; */
+    margin-top:15px;
+}
+/* /fake-slider */
