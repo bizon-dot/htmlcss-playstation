@@ -24,7 +24,8 @@
 
 /* Margini tra le sezioni */
 
-#hero{
+#hero,
+#explore-ps4{
     margin-top:60px;
 }
 
@@ -96,9 +97,7 @@
 /* HeroImage */
 
 /* span sopra al titolo */
-#hero .container-fluid{
-    margin: 0 auto;
-}
+
 #hero span:first-child{
     font-size: 16px;
     letter-spacing: 0.3em;
@@ -108,7 +107,8 @@
 }
 
 /* Hero h3 */
-#hero h3{
+#hero h3,
+#explore-ps4 h3{
     font-size:40px;
     word-spacing: 10px;
     margin-top:10px;
@@ -116,7 +116,8 @@
 }
 
 #hero p:first-of-type,
-#hero p:last-of-type{
+#hero p:last-of-type,
+#explore-ps4 p:last-of-type{
     font-size:20px;
     color:grey;
     margin-top:20px;
@@ -149,3 +150,20 @@
     background-position-y: top;
     background-position-x: center;
 }
+
+/* /Jumbo1 */
+
+/* explore-ps4 */
+
+#explore-ps4 .far{
+    font-size:10px;
+}
+
+#explore-ps4 img{
+    width: 200px;
+}
+
+#explore-ps4 > .container > .row{
+    margin-bottom: 30px;
+}
+
