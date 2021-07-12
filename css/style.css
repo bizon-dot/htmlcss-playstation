@@ -96,8 +96,8 @@
 /* HeroImage */
 
 /* span sopra al titolo */
-#hero .container-fluid{
-    margin: 0 auto;
+#hero{
+    height: 70vh;
 }
 #hero span:first-child{
     font-size: 16px;
@@ -124,8 +124,13 @@
 
 
 
-#hero img {
-    height: 50%;
+#hero .img-cont > img {
+    height: 100%;
+}
+
+
+#hero .img-cont  {
+    height: 200px;
 }
 
 #hero .hero-content{
