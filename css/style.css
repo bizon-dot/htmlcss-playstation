@@ -128,15 +128,6 @@
 
 }
 
-#hero .img-cont {
-    width: 400px;
-}
-
-#hero .img-cont>img {
-    width: 100%;
-}
-
-
 #hero .hero-content {
     margin-top: 40px;
 }
