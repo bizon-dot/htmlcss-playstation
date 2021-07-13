@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generali */
+
+/* Classi colore - Sfondi  */
+
+.ms_bg-black {
+    background-color: #000000;
+}
+
+.ms_bg-light-black {
+    background-color: #1F1F1F;
+}
+
+.ms_bg-dark-gray {
+    background-color: #363636;
+}
+
+/*/ Classi colore - Sfondi  */
+
+/* Caratteri generali delle sezioni */
+/* Margini tra le sezioni */
+
+#hero,
+#explore-ps4,
+#jumbo-banner1,
+#discount,
+#play-now,
+#follow-us {
+    margin-top: 100px;
+}
+
+/* Formattazione degli H3 delle sezioni */
+#hero h3,
+#explore-ps4 h3,
+#discount h3,
+#follow-us h3 {
+    font-size: 40px;
+    word-spacing: 10px;
+    margin-top: 10px;
+
+}
+
+/* Formattazione dei p delle sezioni (sottotitoli) */
+#hero p:first-of-type,
+#hero p:last-of-type,
+#explore-ps4 p:last-of-type,
+#discount p:last-of-type {
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+
+/* Pulsanti */
+
+/* Reset  */
+.btn {
+    border-radius: 15%;
+    padding: 10px;
+    color: white;
+}
+
+/* header top */
+
+#header-top .ms_img-container {
+    width: 80px;
+    height: 50px;
+
+}
+
+#header-top .ms_img-container>img {
+    margin-right: 10px;
+}
+
+#header-top,
+#header-bottom {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header-bottom svg {
+    margin-left: 5px;
+}
+
+
+/* /header top */
+
+/* Jumbotron */
+
+#jumbo-banner {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+}
+
+#jumbo-banner .col>img {
+    width: 50%;
+}
+
+/* Effetto slider */
+
+.fake-slider .col:hover {
+    padding: 10px;
+
+}
+
+
+/* /Jumbotron */
+
+/* fake-slider */
+.fake-slider img {
+    width: 200px;
+    border-radius: 20%;
+    margin-top: 15px;
+}
+
+/* /fake-slider */
+
+/* HeroImage */
+
+/* span sopra al titolo */
+
+#hero span:first-child {
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #0072ce;
+
+}
+
+#hero .img-cont {
+    width: 500px;
+}
+
+#hero .img-cont>img {
+    width: 100%;
+}
+
+
+#hero .hero-content {
+    margin-top: 40px;
+}
+
+#hero .fake-slider .col>p {
+    padding: 20px;
+}
+
+#hero .fake-slider .col:hover {
+    padding: 10px;
+    border-bottom: #0072ce;
+}
+
+/* /HeroImage */
+
+/* Jumbo1 */
+
+#jumbo-banner1 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+}
+
+/* /Jumbo1 */
+
+/* Nuove uscite */
+#nuove-uscite {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+#nuove-uscite .col>p {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#nuove-uscite>.container-fluid>.row>div:first-child {
+    padding-left: 40px;
+}
+
+#nuove-uscite .col>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+/* explore-ps4 */
+
+#explore-ps4 .far {
+    font-size: 10px;
+}
+
+#explore-ps4 img,
+#discount img {
+    width: 200px;
+}
+
+#explore-ps4>.container>.row,
+#discount>.container>.row {
+    margin-bottom: 30px;
+}
+
+
+/* playstation-plus */
+
+#playstation-plus {
+    background-color: #BEBCBB;
+}
+
+#playstation-plus .img-cont>img {
+    width: 300px;
+}
+
+#playstation-plus .col-6>img {
+    width: 450px;
+}
+
+#playstation-plus button {
+    font-size: 14px;
+    background-color: lightgray;
+    color: #0072ce;
+    border: none;
+}
+
+#discount img {
+    width: 400px;
+    padding: 30px;
+}
+
+/* Play-now */
+
+#play-now {
+    background-color: #161C3B;
+    color: white;
+}
+
+
+
+#play-now .img-cont>img {
+    width: 300px;
+}
+
+#play-now .col-6>img {
+    width: 450px;
+}
+
+#play-now button {
+    font-size: 14px;
+    background-color: lightgray;
+    color: black;
+    border: none;
+}
+
+
+
+/* follow-us */
+
+#follow-us .col>img {
+    width: 200px;
+    padding: 30px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media query */
+
+@media (min-width: 200px) and (max-width: 576px) {
+    .mobile-no {
+        display: none;
+    }
+
+    #playstation-plus,
+    #play-now {
+        padding: 30px;
+    }
+
+    #hero .img-cont>img {
+        width: 70%;
+    }
+
+
+}
