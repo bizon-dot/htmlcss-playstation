@@ -112,7 +112,8 @@
 /* Hero h3 */
 #hero h3,
 #explore-ps4 h3,
-#discount h3{
+#discount h3,
+#follow-us h3{
     font-size:40px;
     word-spacing: 10px;
     margin-top:10px;
@@ -221,4 +222,11 @@
     background-color: lightgray;
     color: black;
     border:none;
+}
+
+/* follow-us */
+
+#follow-us .col > img {
+    width:200px;
+    padding: 30px;
 }
