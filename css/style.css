@@ -22,15 +22,38 @@
 
 /*/ Classi colore - Sfondi  */
 
+/* Caratteri generali delle sezioni */
 /* Margini tra le sezioni */
 
 #hero,
 #explore-ps4,
 #jumbo-banner1,
+#nuove-uscite,
 #discount,
 #play-now,
 #follow-us.conta {
     margin-top: 60px;
+}
+
+/* Formattazione degli H3 delle sezioni */
+#hero h3,
+#explore-ps4 h3,
+#discount h3,
+#follow-us h3 {
+    font-size: 40px;
+    word-spacing: 10px;
+    margin-top: 10px;
+
+}
+
+/* Formattazione dei p delle sezioni (sottotitoli) */
+#hero p:first-of-type,
+#hero p:last-of-type,
+#explore-ps4 p:last-of-type,
+#discount p:last-of-type {
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
 }
 
 /* Pulsanti */
@@ -41,8 +64,6 @@
     padding: 10px;
     color: white;
 }
-
-
 
 /* header top */
 
@@ -94,7 +115,6 @@
     margin-top: 15px;
 }
 
-
 /* /fake-slider */
 
 /* HeroImage */
@@ -107,26 +127,6 @@
     text-transform: uppercase;
     color: #0072ce;
 
-}
-
-/* Hero h3 */
-#hero h3,
-#explore-ps4 h3,
-#discount h3,
-#follow-us h3 {
-    font-size: 40px;
-    word-spacing: 10px;
-    margin-top: 10px;
-
-}
-
-#hero p:first-of-type,
-#hero p:last-of-type,
-#explore-ps4 p:last-of-type,
-#discount p:last-of-type {
-    font-size: 20px;
-    color: grey;
-    margin-top: 20px;
 }
 
 #hero .img-cont {
@@ -164,6 +164,16 @@
 /* /Jumbo1 */
 
 /* Nuove uscite */
+#nuove-uscite{
+    background-color:#1F1F1F;
+    color:white;
+}
+#nuove-uscite .col > p,
+#nuove-uscite > .container-fluid > .row > div:first-child
+ {
+    padding: 10px;
+    font-weight: bolder;
+}
 #nuove-uscite .col > img {
     width:200px;
     height:200px;
@@ -171,6 +181,9 @@
     margin-top:20px;
 }
 
+/* #nuove-uscite > .container-fluid > .row > div:first-child {
+    display:none;
+} */
 /* explore-ps4 */
 
 #explore-ps4 .far {
