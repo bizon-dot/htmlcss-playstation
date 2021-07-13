@@ -224,9 +224,25 @@
     border:none;
 }
 
+
+
 /* follow-us */
 
 #follow-us .col > img {
     width:200px;
     padding: 30px;
 }
+
+
+
+/* Media query */
+
+@media (min-width: 200px) and (max-width: 576px) {
+    .mobile-no{
+         display:none;
+    }
+    #playstation-plus,
+    #play-now{
+        padding:30px;
+    } 
+   }
