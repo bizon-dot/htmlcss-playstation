@@ -108,7 +108,7 @@
 /* /Jumbotron */
 
 /* fake-slider */
-#fake-slider img {
+.fake-slider img {
     width: 200px;
     border-radius: 20%;
     margin-top: 15px;
@@ -141,10 +141,11 @@
     margin-top: 40px;
 }
 
-#explore-ps4 img,
-#discount img {
-    width: 200px;
+#hero .fake-slider .col > p {
+    padding: 20px;
 }
+
+
 
 /* /HeroImage */
 
@@ -188,6 +189,11 @@
 
 #explore-ps4 .far {
     font-size: 10px;
+}
+
+#explore-ps4 img,
+#discount img {
+    width: 200px;
 }
 
 #explore-ps4>.container>.row,
@@ -281,6 +287,10 @@ footer a {
     #playstation-plus,
     #play-now {
         padding: 30px;
+    }
+
+    #hero .img-cont > img {
+        width: 70%;
     }
 
 
