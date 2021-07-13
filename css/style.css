@@ -28,7 +28,6 @@
 #hero,
 #explore-ps4,
 #jumbo-banner1,
-#nuove-uscite,
 #discount,
 #play-now,
 #follow-us.conta {
@@ -164,26 +163,27 @@
 /* /Jumbo1 */
 
 /* Nuove uscite */
-#nuove-uscite{
-    background-color:#1F1F1F;
-    color:white;
+#nuove-uscite {
+    background-color: #1F1F1F;
+    color: white;
 }
-#nuove-uscite .col > p,
-#nuove-uscite > .container-fluid > .row > div:first-child
- {
+
+#nuove-uscite .col>p {
     padding: 10px;
     font-weight: bolder;
 }
-#nuove-uscite .col > img {
-    width:200px;
-    height:200px;
-    border-radius: 20%;
-    margin-top:20px;
+
+#nuove-uscite>.container-fluid>.row>div:first-child {
+    padding-left: 40px;
 }
 
-/* #nuove-uscite > .container-fluid > .row > div:first-child {
-    display:none;
-} */
+#nuove-uscite .col>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
 /* explore-ps4 */
 
 #explore-ps4 .far {
@@ -255,7 +255,21 @@
     padding: 30px;
 }
 
+/* Footer */
 
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
 
 /* Media query */
 
