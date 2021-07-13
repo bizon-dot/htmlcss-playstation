@@ -28,8 +28,9 @@
 #explore-ps4,
 #jumbo-banner1,
 #discount,
-#play-now{
-    margin-top:60px;
+#play-now,
+#follow-us.conta {
+    margin-top: 60px;
 }
 
 /* Pulsanti */
@@ -38,7 +39,7 @@
 .btn {
     border-radius: 15%;
     padding: 10px;
-    color:white;
+    color: white;
 }
 
 
@@ -48,7 +49,7 @@
 #header-top .ms_img-container {
     width: 80px;
     height: 50px;
-    
+
 }
 
 #header-top .ms_img-container>img {
@@ -70,7 +71,7 @@
 
 /* Jumbotron */
 
-#jumbo-banner{
+#jumbo-banner {
     width: 100%;
     height: 70vh;
     background-image: url(../img/jumbo-bg.png);
@@ -80,18 +81,17 @@
     background-position-x: center;
 }
 
-#jumbo-banner .col > img
-{
+#jumbo-banner .col>img {
     width: 50%;
 }
 
 /* /Jumbotron */
 
 /* fake-slider */
-#fake-slider img{
+#fake-slider img {
     width: 200px;
     border-radius: 20%;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 
@@ -101,57 +101,57 @@
 
 /* span sopra al titolo */
 
-#hero span:first-child{
+#hero span:first-child {
     font-size: 16px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color:#0072ce;
-   
+    color: #0072ce;
+
 }
 
 /* Hero h3 */
 #hero h3,
 #explore-ps4 h3,
 #discount h3,
-#follow-us h3{
-    font-size:40px;
+#follow-us h3 {
+    font-size: 40px;
     word-spacing: 10px;
-    margin-top:10px;
-  
+    margin-top: 10px;
+
 }
 
 #hero p:first-of-type,
 #hero p:last-of-type,
 #explore-ps4 p:last-of-type,
-#discount p:last-of-type{
-    font-size:20px;
-    color:grey;
-    margin-top:20px;
+#discount p:last-of-type {
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
 }
 
 #hero .img-cont {
-    width:400px;
+    width: 400px;
 }
 
-#hero .img-cont > img {
-    width:100%;
+#hero .img-cont>img {
+    width: 100%;
 }
 
 
-#hero .hero-content{
+#hero .hero-content {
     margin-top: 40px;
 }
 
 #explore-ps4 img,
-#discount img{
-    width:200px;
+#discount img {
+    width: 200px;
 }
 
 /* /HeroImage */
 
 /* Jumbo1 */
 
-#jumbo-banner1{
+#jumbo-banner1 {
     width: 100%;
     height: 70vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -163,73 +163,82 @@
 
 /* /Jumbo1 */
 
-/* explore-ps4 */
-
-#explore-ps4 .far{
-    font-size:10px;
+/* Nuove uscite */
+#nuove-uscite .col > img {
+    width:200px;
+    height:200px;
+    border-radius: 20%;
+    margin-top:20px;
 }
 
-#explore-ps4 > .container > .row,
-#discount > .container > .row{
+/* explore-ps4 */
+
+#explore-ps4 .far {
+    font-size: 10px;
+}
+
+#explore-ps4>.container>.row,
+#discount>.container>.row {
     margin-bottom: 30px;
 }
 
 
 /* playstation-plus */
 
-#playstation-plus{
+#playstation-plus {
     background-color: #BEBCBB;
 }
 
-#playstation-plus .img-cont > img{
+#playstation-plus .img-cont>img {
     width: 300px;
 }
 
-#playstation-plus .col-6 > img{
+#playstation-plus .col-6>img {
     width: 450px;
 }
 
-#playstation-plus button{
-    font-size:14px;
+#playstation-plus button {
+    font-size: 14px;
     background-color: lightgray;
     color: #0072ce;
-    border:none;
+    border: none;
 }
 
-#discount img{
-    width:400px;
+#discount img {
+    width: 400px;
+    padding: 30px;
 }
 
 /* Play-now */
 
-#play-now{
+#play-now {
     background-color: #161C3B;
-    color:white;
+    color: white;
 }
 
 
 
-#play-now .img-cont > img{
+#play-now .img-cont>img {
     width: 300px;
 }
 
-#play-now .col-6 > img{
+#play-now .col-6>img {
     width: 450px;
 }
 
-#play-now button{
-    font-size:14px;
+#play-now button {
+    font-size: 14px;
     background-color: lightgray;
     color: black;
-    border:none;
+    border: none;
 }
 
 
 
 /* follow-us */
 
-#follow-us .col > img {
-    width:200px;
+#follow-us .col>img {
+    width: 200px;
     padding: 30px;
 }
 
@@ -238,11 +247,14 @@
 /* Media query */
 
 @media (min-width: 200px) and (max-width: 576px) {
-    .mobile-no{
-         display:none;
+    .mobile-no {
+        display: none;
     }
+
     #playstation-plus,
-    #play-now{
-        padding:30px;
-    } 
-   }
+    #play-now {
+        padding: 30px;
+    }
+
+
+}
