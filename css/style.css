@@ -25,7 +25,10 @@
 /* Margini tra le sezioni */
 
 #hero,
-#explore-ps4{
+#explore-ps4,
+#jumbo-banner1,
+#discount,
+#play-now{
     margin-top:60px;
 }
 
@@ -108,7 +111,8 @@
 
 /* Hero h3 */
 #hero h3,
-#explore-ps4 h3{
+#explore-ps4 h3,
+#discount h3{
     font-size:40px;
     word-spacing: 10px;
     margin-top:10px;
@@ -117,24 +121,28 @@
 
 #hero p:first-of-type,
 #hero p:last-of-type,
-#explore-ps4 p:last-of-type{
+#explore-ps4 p:last-of-type,
+#discount p:last-of-type{
     font-size:20px;
     color:grey;
     margin-top:20px;
 }
 
+#hero .img-cont {
+    width:400px;
+}
 
+#hero .img-cont > img {
+    width:100%;
+}
 
-/* #hero img {
-    height: 60%;
-} */
 
 #hero .hero-content{
     margin-top: 40px;
 }
 
-#hero .hero-content img,
-#explore-ps4 img{
+#explore-ps4 img,
+#discount img{
     width:200px;
 }
 
@@ -160,7 +168,8 @@
     font-size:10px;
 }
 
-#explore-ps4 > .container > .row{
+#explore-ps4 > .container > .row,
+#discount > .container > .row{
     margin-bottom: 30px;
 }
 
@@ -171,12 +180,45 @@
     background-color: #BEBCBB;
 }
 
-#playstation-plus img{
-    width: 350px;
+#playstation-plus .img-cont > img{
+    width: 300px;
+}
+
+#playstation-plus .col-6 > img{
+    width: 450px;
 }
 
 #playstation-plus button{
+    font-size:14px;
     background-color: lightgray;
     color: #0072ce;
+    border:none;
+}
+
+#discount img{
+    width:400px;
+}
+
+/* Play-now */
+
+#play-now{
+    background-color: #161C3B;
+    color:white;
+}
+
+
+
+#play-now .img-cont > img{
+    width: 300px;
+}
+
+#play-now .col-6 > img{
+    width: 450px;
+}
+
+#play-now button{
+    font-size:14px;
+    background-color: lightgray;
+    color: black;
     border:none;
 }
